@@ -1,8 +1,26 @@
+import {
+  BrowserRouter,
+  Outlet,
+  Route,
+  Routes,
+} from "react-router-dom";
+
+import Home from './pages/Home'
+import Error from './pages/Error'
+
 function App() {
   return (
-    <div>
-        Todo
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/error" element={<Error />} />
+          <Route path="*" element={<Error />} />          
+        </Routes>
+      </BrowserRouter>
+
+      <Outlet />
+    </>
   );
 }
 
