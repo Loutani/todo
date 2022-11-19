@@ -8,6 +8,8 @@ import {
 import Home from './pages/Home'
 import Error from './pages/Error'
 
+import './app.css'
+
 function App() {
   return (
     <>
