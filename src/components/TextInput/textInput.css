@@ -1,0 +1,7 @@
+.text-input::placeholder {
+    color: var(--text-input-place-holder-color)
+}
+
+.text-input {
+    color: var(--text-input-place-holder-color);
+}
