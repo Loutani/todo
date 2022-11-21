@@ -1,0 +1,18 @@
+.todo-add {
+    margin: 15px 0px;
+    padding: 10px 15px;
+    border-radius: 100px;
+    background: var(--todo-add-light-gray);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.todo-add input {
+    font-size: 16px;
+    padding: 5px 0px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: calc(100% - 30px);
+}
