@@ -1,0 +1,109 @@
+:root:has(.light) {
+    /* global */
+    --white: #FFF;
+
+    --light: #FFF;
+
+    /* strike */
+    --strike-line-color: #b8b8ba;
+
+    /* todo */
+    --todo-add-light-gray: #edf2f6;
+
+    --todo-box-shadow: 0px 0px 6px 2px #efefef;
+
+    --todo-icon-color: #3e854d;
+
+    --todo-text-color: #95949a;
+
+    --todo-completed-box-shadow: #000;
+
+    --todo-completed-active-background-color: #4caf5040;
+
+    --todo-completed-background-color: #FFF;
+
+    --todo-header-color: gray;
+
+    /* button */
+    --btn-primary-color: #FFF;
+
+    --btn-primary-background-color: #3679b8;
+
+    /* app header */
+    --app-header-background-color: #32315b;
+
+    /* menu */
+    --menu-item-background-color: #FFF;
+    
+    --menu-item-box-shadow: #e5e5e5;
+
+    --menu-item-active-background-color: #edf2f6;
+
+    /* separator */
+    --separator-background-color: #f0f0f0;
+
+    /* switch input */
+    --check-box-shadow: #000;
+
+    --check-box-active-background-color: #4caf50;
+
+    --check-box-not-active-background-color: gray;
+
+    /* text input */
+    --text-input-place-holder-color: #7c8089;
+}
+
+:root:has(.dark) {
+    /* global */
+    --white: #FFF;
+
+    --dark: #32315b;
+
+    /* strike */
+    --strike-line-color: #FFF;
+
+    /* todo */
+    --todo-add-light-gray: #2a2953;
+
+    --todo-box-shadow: 0px 0px 2px #e0e0e0;
+
+    --todo-icon-color: #4e946d;
+
+    --todo-text-color: #b6b6b6;
+    
+    --todo-completed-box-shadow: #FFF;
+
+    --todo-completed-active-background-color: #FFF;
+
+    --todo-completed-background-color: #FFF;
+
+    --todo-header-color: gray;
+
+    /* button */
+    --btn-primary-color: #FFF;
+
+    --btn-primary-background-color: #3679b8;
+
+    /* app header */
+    --app-header-background-color: #32315b;
+
+    /* menu */
+    --menu-item-background-color: #FFF;
+    
+    --menu-item-box-shadow: #e5e5e5;
+
+    --menu-item-active-background-color: #edf2f6;
+
+    /* separator */
+    --separator-background-color: #2a2953b5;
+
+    /* switch input */
+    --check-box-shadow: #000;
+
+    --check-box-active-background-color: #32315b;
+
+    --check-box-not-active-background-color: gray;
+
+    /* text input */
+    --text-input-place-holder-color: #b0b0d4;
+}
