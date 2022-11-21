@@ -6,3 +6,26 @@ html, body {
     margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;;
+}
+
+@import url('./asset/css/variable.css');
+
+.text-center {
+    text-align: center;
+}
+
+.light {
+    background-color: var(--light);
+}
+
+.dark {
+    background-color: var(--dark);
+}
+
+strike {
+    color: var(--strike-line-color);
+}
