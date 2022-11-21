@@ -5,24 +5,33 @@ import {
   Routes,
 } from "react-router-dom";
 
-import Home from './pages/Home'
+import Tasks from './pages/Tasks'
+import RemainTodo from './pages/RemainTodo'
+import CompletedTodo from './pages/CompletedTodo'
 import Error from './pages/Error'
 
 import './app.css'
+import ThemeProvider from "./providers/ThemeProvider";
 
 function App() {
+
   return (
-    <>
+    <ThemeProvider>
+      
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" end element={<Tasks />} />
+          <Route path="/remain-todo" element={<RemainTodo />} />
+          <Route path="/completed-todo" element={<CompletedTodo />} />
+
           <Route path="/error" element={<Error />} />
+          
           <Route path="*" element={<Error />} />          
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter>  
 
-      <Outlet />
-    </>
+        <Outlet />
+      </ThemeProvider>
   );
 }
 
