@@ -1,0 +1,27 @@
+.menu-component {
+    font-weight: normal;
+}
+
+.menu-component svg {
+    font-size: 30px;
+}
+
+.menu-item {
+    width: calc(100vw - 100px);
+    position: absolute;
+    top: 50px;
+    left: calc(-100vw - 100px);
+    height: calc(100vh - 50px);
+    background: var(--menu-item-background-color);
+    box-shadow: 1px 2px 1px var(--menu-item-box-shadow);
+    transition: all 0.3s linear;
+}
+
+.menu-item.open {
+    left: 0;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: inherit;
+}
