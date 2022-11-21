@@ -1,0 +1,18 @@
+.app-header {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+    background-color: var(--app-header-background-color);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.header-text {
+    color: white;
+}
