@@ -1,0 +1,15 @@
+.btn {
+    border: none;
+    outline: none;
+}
+
+.btn.btn-primary {
+    color: var(--btn-primary-color);
+    background-color: var(--btn-primary-background-color);
+}
+
+.btn.btn-primary.btn-circle {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
