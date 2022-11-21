@@ -1,0 +1,41 @@
+.todo {
+    padding: 15px;
+    box-shadow: var(--todo-box-shadow);
+    margin: 10px 0px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.todo .todo-completed {
+    width: 20px;
+    height: 20px;
+    box-shadow: 0px 0px 2px var(--todo-completed-box-shadow);
+    border-radius: 100%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-text {
+    color: var(--todo-text-color);
+}
+
+.todo .icon-color {
+    color: var(--todo-icon-color);
+}
+
+.todo .todo-completed {
+    background-color: var(--todo-completed-background-color);
+}
+
+.todo .todo-completed.active {
+    background-color: var(--todo-completed-active-background-color);
+}
+
+.todo .todo-completed svg {
+    font-size: 14px;
+}
