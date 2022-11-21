@@ -1,0 +1,7 @@
+.todo-wrapper {
+    margin: 10px 0px;
+}
+
+.todo-header {
+    color: var(--todo-header-color);
+}
