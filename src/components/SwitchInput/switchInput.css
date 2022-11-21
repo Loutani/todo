@@ -1,0 +1,40 @@
+.checkbox-input {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.checkbox {
+    width: 1px;
+    height: 1px;
+    visibility: hidden;
+}
+
+.checkbox-design {
+    width: 40px;
+    height: 18px;
+    border-radius: 100px;
+    padding: 5px;
+    box-shadow: 0px 0px 1px var(--check-box-shadow);
+    position: relative;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.checkbox-design-switch {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 100%;
+}
+
+.checkbox-design-switch:not(.active) {
+    
+    background-color: var(--check-box-not-active-background-color);
+    left: 5px;
+}
+
+.checkbox-design-switch.active {
+    background-color: var(--check-box-active-background-color);
+    right: 5px;
+}
