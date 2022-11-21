@@ -1,0 +1,26 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    font-size: 14px;
+}
+
+.m-y-1 {
+    margin: 10px 0px;
+}
+
+.white {
+    color: var(--white);
+}
+
+h5 {
+    margin: 20px 0px;
+}
